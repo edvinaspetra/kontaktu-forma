@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main img{
+    display: block;
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 50px auto;
+}
+
+main div.img{
+    display: block;
+    max-width: 1200px;
+    background: url("img.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 50px auto;
+    padding: 150px;
+    padding-top: 50px;
+}
+
+
+form {
+    height: 500px;
+    max-width: 600px;
+    background: white;
+    color: black;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 4px black;
+}
+
+form h1{
+    text-align: center;
+    margin: 30px;
+}
+
+form input, form label{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+form input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+form button{
+    margin: 0 42px;
+    padding: 5px;
+    width: 150px;
+    color: white;
+    background: black;
+    border: none;
+    font-size: 10px;
+}
+
+#submited{
+    padding-top: 50px;
+}
+
+#submited h2{
+text-align: center;
+margin-bottom: 10px;
+padding-bottom: 10px;
+
+}
+#submited img{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+#submited button{
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+}
